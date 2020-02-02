@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>E:\GGj2020\GGJ2020\GGJ2020\GGJ2020_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>E:\GGj2020\GGJ2020\GGJ2020\GGJ2020_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>E:\GGj2020\GGJ2020\GGJ2020\Content\WwiseAudio\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\GGj2020\GGJ2020\GGJ2020\GGJ2020_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3677180323" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Health</ObjectPath>
+			<ShortName>Health</ShortName>
+			<Path>Health.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

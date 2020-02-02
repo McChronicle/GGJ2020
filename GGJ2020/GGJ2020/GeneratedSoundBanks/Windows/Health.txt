@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3677180323	Health			\Default Work Unit\Health	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3677180323	Health			\Default Work Unit\Health	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	480290320	GGJ2020_Music_Layer2_loop	E:\GGj2020\GGJ2020\GGJ2020\GGJ2020\.cache\Windows\SFX\GGJ2020_Music_Layer2_Loop_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Health\GGJ2020_Music_Health\GGJ2020_Music_Layer2_loop		15360064
+	1030090055	GGJ2020_Music_Layer1_Loop	E:\GGj2020\GGJ2020\GGJ2020\GGJ2020\.cache\Windows\SFX\GGJ2020_Music_Layer1_Loop_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Health\GGJ2020_Music_Health\GGJ2020_Music_Layer1_Loop		15360064
+
