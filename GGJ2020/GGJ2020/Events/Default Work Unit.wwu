@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{17CC44D7-61A3-4E9D-9458-1EB40E2079FB}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{17CC44D7-61A3-4E9D-9458-1EB40E2079FB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Health" ID="{C2866607-C444-4049-8D3D-A0C57F3D362B}">
+					<ChildrenList>
+						<Action Name="" ID="{F564D197-228F-488F-89A0-2DF098C77C20}" ShortID="907064809">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Health" ID="{937F59BF-E740-4AEC-A755-424474D3B469}" WorkUnitID="{E9F1D92B-E587-42A3-9330-653CDB153ABC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

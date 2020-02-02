@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>E:\GGj2020\GGJ2020\GGJ2020\GGJ2020\</ProjectRoot>
+		<SourceFilesRoot>E:\GGj2020\GGJ2020\GGJ2020\GGJ2020\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\GGj2020\GGJ2020\GGJ2020\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\GGj2020\GGJ2020\GGJ2020\GGJ2020\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2228651116" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main_Soundbank</ObjectPath>
+			<ShortName>Main_Soundbank</ShortName>
+			<Path>Main_Soundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3677180323" Name="Health" ObjectPath="\Events\Default Work Unit\Health"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="480290320" Language="SFX">
+					<ShortName>GGJ2020_Music_Layer2_Loop.wav</ShortName>
+					<Path>SFX\GGJ2020_Music_Layer2_Loop_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1030090055" Language="SFX">
+					<ShortName>GGJ2020_Music_Layer1_Loop.wav</ShortName>
+					<Path>SFX\GGJ2020_Music_Layer1_Loop_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="3677180323" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Health</ObjectPath>
+			<ShortName>Health</ShortName>
+			<Path>Health.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3677180323" Name="Health" ObjectPath="\Events\Default Work Unit\Health"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="480290320" Language="SFX">
+					<ShortName>GGJ2020_Music_Layer2_Loop.wav</ShortName>
+					<Path>SFX\GGJ2020_Music_Layer2_Loop_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1030090055" Language="SFX">
+					<ShortName>GGJ2020_Music_Layer1_Loop.wav</ShortName>
+					<Path>SFX\GGJ2020_Music_Layer1_Loop_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

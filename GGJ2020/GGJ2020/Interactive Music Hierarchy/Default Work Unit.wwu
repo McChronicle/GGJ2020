@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E9F1D92B-E587-42A3-9330-653CDB153ABC}" SchemaVersion="94">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{E9F1D92B-E587-42A3-9330-653CDB153ABC}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="Health" ID="{937F59BF-E740-4AEC-A755-424474D3B469}" ShortID="874901608">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="63"/>
+						<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{207BE81C-7B3E-4494-A79A-D7ABAD7B3966}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E9165BC-10C2-4904-B4B0-3D1D90B33A32}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="GGJ2020_Music_Health" ID="{30121030-A7F2-47E3-B26C-0B4A06A079AA}" ShortID="357081026">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="80000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{207BE81C-7B3E-4494-A79A-D7ABAD7B3966}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E9165BC-10C2-4904-B4B0-3D1D90B33A32}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="GGJ2020_Music_Layer1_Loop" ID="{293EAE27-ADCC-4909-AAAE-586947780F09}" ShortID="433845373">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{B0F6C4FE-0894-40DB-9892-726A5F5E8D8E}" ShortID="593250722">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Health" ID="{AF4D74F3-69DD-4B1F-80B9-9FE0911B76F2}" WorkUnitID="{C56D555A-22AA-4C71-BE79-1D8533462A8E}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{35518D1B-7124-43AA-ABF8-D145412BEC41}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>25</XPos>
+																<YPos>-0.15374</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E9165BC-10C2-4904-B4B0-3D1D90B33A32}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GGJ2020_Music_Layer1_Loop" ID="{5727EC3B-88E9-4558-BE72-E4202857954B}" ShortID="1030090055">
+											<Language>SFX</Language>
+											<AudioFile>GGJ2020_Music_Layer1_Loop.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{C88969E2-94C1-419A-A19B-81E3B7C6EAD1}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{E0FF1157-7F46-45AB-ABB6-5988B5BF57E7}">
+											<ClipList>
+												<MusicClip Name="GGJ2020_Music_Layer1_Loop" ID="{6701AAE7-8235-4B23-A9ED-A7E70EA86E81}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="80000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="GGJ2020_Music_Layer1_Loop" ID="{5727EC3B-88E9-4558-BE72-E4202857954B}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="GGJ2020_Music_Layer2_loop" ID="{E3F60CBB-25B3-4886-92B7-70C4E5079A02}" ShortID="1032076786">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{4A67235A-2059-43E9-A1F4-A5A09E2270CC}" ShortID="137308207">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Health" ID="{AF4D74F3-69DD-4B1F-80B9-9FE0911B76F2}" WorkUnitID="{C56D555A-22AA-4C71-BE79-1D8533462A8E}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{20E76F40-4B61-488E-AB15-27B97B776491}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>25</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>74.92163</XPos>
+																<YPos>-19.08485</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4E9165BC-10C2-4904-B4B0-3D1D90B33A32}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GGJ2020_Music_Layer2_Loop" ID="{79F7A6B3-2195-4525-B726-4B4DC729249A}" ShortID="480290320">
+											<Language>SFX</Language>
+											<AudioFile>GGJ2020_Music_Layer2_Loop.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{F24B7BEA-ACBC-4532-9E35-4808645257D2}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{92E97BCA-373E-4145-8CC9-E09697E1A5B7}">
+											<ClipList>
+												<MusicClip Name="GGJ2020_Music_Layer2_Loop" ID="{F2F6E951-0DE2-4C64-B07E-B08FB60DA744}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="80000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="GGJ2020_Music_Layer2_Loop" ID="{79F7A6B3-2195-4525-B726-4B4DC729249A}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{9EE2B7B7-7359-40B9-86FD-9C9A60D87824}"/>
+								<MusicCue Name="Exit Cue" ID="{CF27998B-E236-4F07-8687-D41ECD93430F}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="80000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{9CBE3780-CF3D-472A-BFBB-51967E134BEA}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{BD3A20D7-B010-497C-94FF-41C9C625465E}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{21154767-10A9-477D-9289-F76AE858ADF4}" ShortID="903115964">
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{A8A9FA7A-EDAF-4FF3-8FF4-26ACE3F74F3F}" ShortID="835222949">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="GGJ2020_Music_Health" ID="{30121030-A7F2-47E3-B26C-0B4A06A079AA}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>
